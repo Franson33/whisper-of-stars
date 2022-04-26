@@ -53,7 +53,7 @@ export const App = () => {
 const styles = StyleSheet.create({
   counterContainer: {
     flex: 1,
-    height: Dimensions.get("screen").height * 0.4,
+    height: Dimensions.get("window").height * 0.4,
     justifyContent: "space-evenly",
     alignItems: "center",
   },
